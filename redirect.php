@@ -1,7 +1,7 @@
 <?php
 require 'fyers_api.php';
-$app_id="30C3OVUREV";
-$secret_key ="V690E1JAST";
+$app_id="";
+$secret_key ="";
 $fyers = new fyers_api($app_id, $secret_key );
 if( isset($_GET['access_token']) ){
 	$access_token=$_GET['access_token'];
